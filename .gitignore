@@ -1,0 +1,38 @@
+# Dependency directories
+node_modules/
+venv/
+.venv/
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Logs and temp files
+*.log
+tmp/
+temp/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# IDE/editor settings
+.vscode/
+.idea/
+*.swp
+
+# Environment and secrets
+.env
+.env.*
+*.key
+*.pem
+*.crt
+*.pfx
+*.p12
+*.cert
+
+# Build artifacts
+dist/
+build/
+out/
+

@@ -21,6 +21,12 @@ Thumbs.db
 .idea/
 *.swp
 
+# Local tooling and state
+.cursor/
+.mastra/
+mastra.db
+*.db
+
 # Environment and secrets
 .env
 .env.*

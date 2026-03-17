@@ -1,0 +1,41 @@
+{
+  "name": "opensearch_rag_userresearch_agent",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "mastra dev",
+    "build": "mastra build",
+    "start": "mastra start",
+    "mcp-server": "node src/mastra/mcp-server/opensearch-mcp-server.js",
+    "test:rag": "node test-rag-comparison.js",
+    "test:rag-python": "python test_rag_comparison.py",
+    "test:rag-opensearch": "node test-rag-opensearch.js",
+    "test:rag-agent": "node test-rag-agent.js",
+    "test:rag-simple": "node test-rag-simple.js",
+    "example:rag": "node example-rag-usage.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "engines": {
+    "node": ">=20.9.0"
+  },
+  "dependencies": {
+    "@ai-sdk/openai": "^1.3.23",
+    "@mastra/core": "^0.11.1",
+    "@mastra/libsql": "^0.11.2",
+    "@mastra/loggers": "^0.10.4",
+    "@mastra/memory": "^0.11.5",
+    "@modelcontextprotocol/sdk": "^0.4.0",
+    "@opensearch-project/opensearch": "^2.4.0",
+    "zod": "^3.25.76"
+  },
+  "devDependencies": {
+    "@types/node": "^24.1.0",
+    "mastra": "^0.10.15",
+    "typescript": "^5.8.3"
+  }
+}

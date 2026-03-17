@@ -1,4 +1,4 @@
-## mastra-opensearch-rag-userinsight-agent
+## opensearch_rag_userresearch_agent
 
 An experiment in building a **user research copilot** that can:
 

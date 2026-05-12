@@ -1,0 +1,22 @@
+{
+  "name": "jades-first-race",
+  "version": "1.0.0",
+  "description": "Jade's First Race — a children's story video by Isabella, age 8",
+  "scripts": {
+    "studio": "npx remotion studio",
+    "render": "npx remotion render src/index.ts JadesFirstRace out/jades-first-race.mp4",
+    "render:preview": "npx remotion render src/index.ts JadesFirstRace out/preview.mp4 --scale=0.5",
+    "build": "npx remotion bundle src/index.ts"
+  },
+  "dependencies": {
+    "@remotion/cli": "4.0.425",
+    "@remotion/transitions": "4.0.425",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "remotion": "4.0.425"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.0",
+    "typescript": "^5.0.0"
+  }
+}
